@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Drawing;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace SharpScripter
