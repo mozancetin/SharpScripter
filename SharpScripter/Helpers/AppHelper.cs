@@ -111,7 +111,7 @@ namespace SharpScripter.Helpers
             {
                 allItems.ForEach(i =>
                 {
-                    if (i.Text.ToLower().Contains(like)) { AppBox.Items.Add(i); }
+                    if (i.Text.ToLower().Contains(like.ToLower())) { AppBox.Items.Add(i); }
                 });
             }
             else
